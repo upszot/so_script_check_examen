@@ -17,5 +17,11 @@ sudo vgs ; sudo lvs ; df -h |grep -Ei 'datos|docker'
 ./check_mnt.sh /datos/punto_1 /var/lib/docker/ /datos/multimedia /datos/repogit
 ./check_size_lv_fs.sh
 
+echo "permisos"
+id lider
+grep -Ei 'lider|implementador' /etc/shadow
 
+echo
+echo "archivos info"
+history |grep -i  info
 
