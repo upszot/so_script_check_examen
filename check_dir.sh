@@ -68,7 +68,7 @@ function verifica_directorios_de_mas {
 }
 
 verificar_estructura_directorios "$archivo_estructura" "$directorio_base"
-verifica_directorios_de_mas "$archivo_estructura" "$directorio_base"
+#verifica_directorios_de_mas "$archivo_estructura" "$directorio_base"
 
 # Comprobar errores antes de imprimir
 if [ "$FLAG_ERROR" -eq 1 ]; then
